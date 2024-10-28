@@ -1,0 +1,37 @@
+sudo apt install openjdk-11-y
+
+EC2
+
+launch instance
+name
+amazon linux
+proceed without key pair
+launch instance
+
+check created instances
+connect
+
+
+terminate instance 
+
+go in security groups and delete the one other than default
+
+
+
+THEORY:
+-EC2 (Elastic Compute Cloud) is a web service by AWS that provides resizable compute capacity in the cloud, allowing users to run virtual servers.
+-Instances are categorized by use cases like compute-optimized, memory-optimized, storage-optimized, and general-purpose. 
+-On-Demand: Pay for compute capacity by the hour/second with no long-term commitments.
+-Reserved: Reserve an instance for 1 or 3 years at a reduced rate
+-Spot: Bid for unused EC2 capacity at reduced rates
+
+-The states include Pending, Running, Stopping, Stopped, Shutting-down, and Terminated.
+
+-Security Groups act as virtual firewalls, controlling inbound and outbound traffic for EC2 instances, ensuring network security.
+
+-A key pair consists of a public and private key that ensures secure access to EC2 instances.
+
+-IAM (Identity and Access Management) controls access to AWS resources, allowing you to create users, roles, and permissions for secure resource management.
+
+-CloudWatch is an AWS monitoring service to track metrics and logs, set alarms, and respond to changes in your resources.
+

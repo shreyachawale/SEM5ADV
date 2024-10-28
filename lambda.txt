@@ -1,0 +1,20 @@
+create
+add trigger
+put s3 in bucket
+goto code source
+test button next to deploy
+then put event
+test
+success
+cloud watch
+log groups
+delete
+go to s3 and delete bucket
+
+
+
+theory: 
+AWS Lambda is a serverless compute service provided by Amazon Web Services. It allows you to run code in response to events.
+ This on-demand function execution model provides benefits like automatic scaling, high availability, and a pay-as-you-go pricing model, which only charges for the time code is running.
+
+To package a Java Lambda function, you compile it into a JAR file using a build tool like Maven or Gradle. 

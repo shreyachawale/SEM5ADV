@@ -1,0 +1,17 @@
+Kubernetes is an open-source container orchestration platform.
+
+It automates the deployment, scaling, and  management of containerized applications.
+
+Borg, which managed the deployment of  thousands of applications within Google.
+
+In 2014, Google open-sourced a version of Borg.
+that is Kubernetes
+
+
+ARCHITECTURE
+A Kubernetes cluster is a set of machines, called nodes, that are used to run containerized applications. 
+
+There are two core pieces in a Kubernetes cluster.
+The first is the control plane: It is responsible for managing  the state of the cluster.
+
+The second is a set of worker nodes: These nodes run the containerized  application workloads.The containerized applications run in a Pod. Pods are the smallest deployable units in Kubernetes.

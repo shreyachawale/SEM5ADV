@@ -1,0 +1,12 @@
+-Amazon S3 (Simple Storage Service) is an object storage service offered by AWS, designed to store and retrieve any amount of data from anywhere on the internet.
+
+- An S3 bucket is a container for storing objects (files) in Amazon S3. 
+
+-S3 is an object storage system, meaning there are no directories, only flat namespaces with unique keys. Files are stored as objects, and you access them using URLs.
+
+-S3 is used for data backups, website hosting, big data analytics, archiving, content storage, and more.
+
+
+Search S3- create bucket
+click on the bucket created
+upload java program or python
